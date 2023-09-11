@@ -1,2 +1,2 @@
 # Atividades-Faculdade
-Repositorio destindo as atividades curriculares de BSI
+Repositorio destinado as atividades curriculares de BSI
