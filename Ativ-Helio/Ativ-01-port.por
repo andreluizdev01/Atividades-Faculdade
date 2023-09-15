@@ -70,6 +70,7 @@ programa {
   }
 }
 */
+/*
 programa {
   funcao inicio() {
   real slm,pct,almt1,almt2
