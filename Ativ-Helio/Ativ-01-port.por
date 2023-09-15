@@ -11,6 +11,7 @@ programa {
   }
 }
 */
+/*
 programa {
   funcao inicio() {
     real n1,n2,result
@@ -22,9 +23,11 @@ programa {
 
     result = n1 % n2
 
-    escreva ("Seu modulo é: "+ result)
+    escreva ("Seu modulo Ã©: "+ result)
   }
 }
+*/
+/*
 programa {
   funcao inicio() {
     real n1,n2,n3,result,result2
@@ -36,20 +39,22 @@ programa {
     leia (n3)
     result = n1 + n2 + n3
     result2 = result *3
-    escreva ("Seu triplo da soma é: "+ result2)
+    escreva ("Seu triplo da soma Ã©: "+ result2)
   }
 }
-
+*/
+/*
 programa {
   funcao inicio() {
     real BRL,USL
     escreva ("Q5: Digite um valor:")
     leia (BRL)
     USL= BRL / 5
-    escreva ("Seu valor em dólar é: "+ USL)
+    escreva ("Seu valor em dÃ³lar Ã©: "+ USL)
   }
 }
-
+*/
+/*
 programa {
   funcao inicio() {
     real slm,pct,almt1,almt2
@@ -64,6 +69,7 @@ programa {
     escreva ("Total do aumento em 15%: "+ almt2)
   }
 }
+*/
 programa {
   funcao inicio() {
   real slm,pct,almt1,almt2
@@ -78,3 +84,4 @@ programa {
   escreva ("Total do aumento em 15%: "+ almt2)
   }
 }
+*/
