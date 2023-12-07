@@ -1,0 +1,35 @@
+import javax.swing.JOptionPane;
+import java.lang.Math;
+
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+  
+     int x,a,b,c,ma;
+     double mp;
+        String sx,sa,sb,sc;
+
+        sx=JOptionPane.showInputDialog(null, "Digita o valor de X:");
+        sa=JOptionPane.showInputDialog(null, "Digita o valor de A:");
+        sb=JOptionPane.showInputDialog(null, "Digita o valor de B:");
+        sc=JOptionPane.showInputDialog(null, "Digita o valor de C:");
+ 
+       x= Integer.parseInt(sx);
+       a= Integer.parseInt(sa);
+       b= Integer.parseInt(sb);
+       c= Integer.parseInt(sc);
+  
+        if (x% 2 == 0)
+      { ma = (a+b+c)/3;
+          JOptionPane.showMessageDialog(null, "Media aritimetica" + ma);
+      
+        if (x >10)
+        {mp = ((a*2)+(b*3)+(c*4))/9; 
+        JOptionPane.showMessageDialog(null, "Media ponderada" + mp);
+        }}
+        
+        else
+        {JOptionPane.showMessageDialog(null, "Numero impa");}
+        
+    }
+}
