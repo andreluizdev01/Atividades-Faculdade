@@ -1,0 +1,126 @@
+package exercicio_fix;
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+  
+      int mes;
+        
+        String smes;
+  
+        smes=JOptionPane.showInputDialog(null, "Digite o numero correspondente a um mês (1-12): ");
+        
+      mes= Integer.parseInt(smes);
+      
+ 
+   switch (mes)
+   {
+       case 1:
+           JOptionPane.showMessageDialog(null,"janeiro");
+        break;
+       case 2:
+           JOptionPane.showMessageDialog(null,"fevereiro");
+        break;
+       case 3:
+           JOptionPane.showMessageDialog(null," março");
+       break;
+       
+              case 4:
+           JOptionPane.showMessageDialog(null,"abril");
+        break;
+       case 5:
+           JOptionPane.showMessageDialog(null,"maio");
+        break;
+       case 6:
+           JOptionPane.showMessageDialog(null,"junho");
+       break;
+       
+              case 7:
+           JOptionPane.showMessageDialog(null,"julho");
+        break;
+       case 8:
+           JOptionPane.showMessageDialog(null,"agosto");
+        break;
+       case 9:
+           JOptionPane.showMessageDialog(null,"setembro");
+       break;
+       
+              case 10:
+           JOptionPane.showMessageDialog(null,"outubro");
+        break;
+       case 11:
+           JOptionPane.showMessageDialog(null,"novembro");
+        break;
+       case 12:
+           JOptionPane.showMessageDialog(null,"dezembro");
+       break;
+       
+           default:
+       JOptionPane.showMessageDialog(null,"Valor invalido!");
+        
+   
+      }
+    }
+}
+
+
+
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+import java.lang.Math;
+
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+      double sala , des , des2;
+        
+        String ssala;
+
+        ssala=JOptionPane.showInputDialog(null, "Digite o salario: ");
+        
+      sala= Integer.parseInt(ssala);
+      
+ if (sala >=2300 || sala <= 5000)
+  {
+   des= (7.5 * sala)/100;
+   des2= sala - des;
+   JOptionPane.showMessageDialog(null,"Desconto em 7,5%: "+ des2 + "reais");
+  
+  }
+
+  if (sala >=5000 || sala <= 7000)
+  {
+   des= (9 * sala)/100 ;
+   des2= sala - des;
+   JOptionPane.showMessageDialog(null,"Desconto em 9%: "+ des2 + "reais");
+   
+  }
+
+  if (sala >=7000 || sala <= 9000)
+  {
+    des= (11 * sala)/100 ;
+   des2= sala - des;
+   JOptionPane.showMessageDialog(null,"Desconto em 11%: "+ des2 + "reais");
+   
+  }
+
+  if (sala >=9000)
+  {
+    des= (14 * sala)/100 ;
+   des2= sala - des;
+   JOptionPane.showMessageDialog(null,"Desconto em 14%: "+ des2 + "reais");
+  
+  }
+
+if (sala <=2300)
+  {
+    JOptionPane.showMessageDialog(null,"Valor não aceito");
+  }
+   
+    }
+}
