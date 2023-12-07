@@ -1,0 +1,172 @@
+package exercicio_fix;
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+
+      int n1,n2,n3;
+        
+        String sn1,sn2,sn3;
+   
+        sn1=JOptionPane.showInputDialog(null, "Digite o valor de N1: ");
+        sn2=JOptionPane.showInputDialog(null, "Digite o valor de N2: ");
+        sn3=JOptionPane.showInputDialog(null, "Digite o valor de N3: ");
+        
+      n1= Integer.parseInt(sn1);
+      n2= Integer.parseInt(sn2);
+      n3= Integer.parseInt(sn3);
+      
+      
+      
+ if (n1 > n2 && n1 > n3)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n1);
+  }
+
+   if (n2 > n1 && n2 > n3)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n2);
+  }
+
+    if (n3 > n2 && n3 > n1)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n3);
+  }
+
+   
+    }
+}
+
+
+
+
+package exercicio_fix;
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+
+      int l1,l2,l3;
+        
+        String sl1,sl2,sl3;
+   
+        sl1=JOptionPane.showInputDialog(null, "Digite o valor de N1: ");
+        sl2=JOptionPane.showInputDialog(null, "Digite o valor de N2: ");
+        sl3=JOptionPane.showInputDialog(null, "Digite o valor de N3: ");
+        
+      l1= Integer.parseInt(sl1);
+      l2= Integer.parseInt(sl2);
+      l3= Integer.parseInt(sl3);
+      
+      
+      
+ if (l1 == l2 && l1 == l3 && l2 == l3)
+JOptionPane.showMessageDialog(null,"É um Triangulo Equilátero!"); 
+
+else
+ if (l1 == l2 || l1 == l3 || l2 == l3)
+ JOptionPane.showMessageDialog(null,"É um Triangulo Isócele!");
+
+else
+ JOptionPane.showMessageDialog(null,"É um Triangulo Escaleno!");
+
+   
+    }
+}
+
+
+package exercicio_fix;
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+
+      int a1,a2,a3,at;
+        
+        String sa1,sa2,sa3;
+   
+        sa1=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 1: ");
+        sa2=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 2: ");
+        sa3=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 3: ");
+        
+        
+      a1= Integer.parseInt(sa1);
+      a2= Integer.parseInt(sa2);
+      a3= Integer.parseInt(sa3);
+      
+      at = a1 + a2 + a3;
+      
+ if (at == 90)
+JOptionPane.showMessageDialog(null,"É um Triangulo Retângulo!"); 
+
+else
+ if (at >= 90)
+ JOptionPane.showMessageDialog(null,"É um Triangulo Obtusângulo!");
+
+else
+ JOptionPane.showMessageDialog(null,"É um Triangulo Acutângulo!");
+
+   
+    }
+}
+
+
+package exercicio_fix;
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Exercicio_fix {
+
+    public static void main(String[] args) {
+
+      int sab,balls,des,des2,psov;
+        
+        String ssab,sballs;
+   
+        ssab=JOptionPane.showInputDialog(null, "Chocolate (1) ou Morango(2)?: ");
+        sballs=JOptionPane.showInputDialog(null, "Quantas bolas?: ");
+   
+      sab= Integer.parseInt(ssab);
+      balls= Integer.parseInt(sballs);
+
+     if (sab == 1 && balls <= 3) 
+{
+psov= 4*balls;
+des= (5*psov)/100;
+des2= psov-des;
+  
+JOptionPane.showMessageDialog(null,"Valor total + desconto de 5%: "+des2);
+}
+else
+
+if(sab == 1 && balls > 3)
+{
+psov= 4*balls;
+des= (10*psov)/100;
+des2= psov-des;
+
+JOptionPane.showMessageDialog(null,"Valor total + desconto de 10%: "+des2);
+  }
+else
+
+if (sab == 2 && balls <= 3) 
+{
+
+psov= 3*balls;
+des= (5*psov)/100;
+des2= psov-des;
+
+JOptionPane.showMessageDialog(null,"Valor total + desconto de 5%: "+des2);
+}
+else
+
+psov= 3*balls;
+des= (10*psov)/100;
+des2= psov-des;
+
+JOptionPane.showMessageDialog(null,"Valor total + desconto de 10%: "+des2); 
+
+    }
+}
