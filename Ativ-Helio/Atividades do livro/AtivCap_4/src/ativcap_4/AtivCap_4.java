@@ -12,7 +12,6 @@ public class AtivCap_4 {
 
             double saldoFinal = saldoInicial - debitos + creditos;
 
-            // Exibe o resultado com base no saldo final
             if (saldoFinal > 0) {
                 JOptionPane.showMessageDialog(null, "Saldo positivo em R$" + saldoFinal);
             } else if (saldoFinal < 0) {
