@@ -46,7 +46,6 @@ public class AtivCap_5 {
             int quadrado = i * i;
             resultado.append(quadrado);
 
-            // Adicionar uma vírgula e um espaço se não for o último número
             if (i * i < limite) {
                 resultado.append(", ");
             }
@@ -62,12 +61,10 @@ public class AtivCap_5 {
 
             double soma = 0;
 
-            // Calcular a soma da série
             for (int i = 1; i <= n; i++) {
                 soma += 1.0 / (2 * i);
             }
 
-            // Exibir o resultado usando JOptionPane
             JOptionPane.showMessageDialog(null, "A soma da série para N = " + n + " é: " + soma);
     }
 }
@@ -170,7 +167,6 @@ public class AtivCap_5 {
             soma += termo;
         }
 
-        // Mostrar a soma
         JOptionPane.showMessageDialog(null, "A soma da série é: " + soma);
     }
 }
