@@ -60,7 +60,7 @@ public class AtivCap_3 {
         JOptionPane.showMessageDialog(null, nome + " possui " + diasDeVida + " dias de vida.");
 
         private static int calcularDiasDeVida(int idade) {
-        return idade * 365; // Cada ano possui 365 dias
+        return idade * 365;
          }
     }
 */
@@ -103,7 +103,7 @@ int dia = Integer.parseInt(JOptionPane.showInputDialog("Digite o dia:"));
 
 
         private static int calcularDiasPassados(int dia, int mes) {
-            return (mes - 1) * 30 + dia; // Considerando que cada mês possui 30 dias
+            return (mes - 1) * 30 + dia;
         }
     }
 */
